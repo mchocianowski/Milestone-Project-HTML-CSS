@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap:100,200,300,400,400,500,600,700');
 
 header{
-    margin:10;
+    margin:0;
 }
 
 .logo{
-    background:url("../images/website mock logo.jpeg");
+    background:url("../images/website mock logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-    transition: all 1s ease-in;
-    -moz-transition: all 1s ease-in;
-    -webkit-transition: all 1s ease-in;
-
+    background-size: contain;
+    min-height:150px;
+    margin:0;
+    padding:0;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
 }
