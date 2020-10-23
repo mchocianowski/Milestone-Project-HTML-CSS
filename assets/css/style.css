@@ -1,18 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap:100,200,300,400,400,500,600,700');
 
-header{
+.background-color{
+    background-color:rgb(160,160,160);
+    background-repeat: repeat-y;
+}
+.bg-color-heading{
+    background-color: black;
+    opacity: 0.6;
+    min-height:300px;
+    margin-left:0px;
+    width:50%;
+}
+.Mateusz{
+   position: absolute;
+   right: 40%;
+}
+.header{
     margin:0;
 }
 
 .logo{
-    background:url("../images/website mock logo.jpg");
-    background-position: center;
+    background:url("../images/website-logo.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
-    min-height:150px;
-    margin:0;
-    padding:0;
+    background-size:contain;
+    min-width: 300px;
+    min-height:300px;
+    margin-left:-6%;
+    margin-right:0px;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
+}
+.Name-Surname{
+    font-family: 'Alatsi', sans-serif;
+    color:white;
+    opacity: 1;
+    font-weight:100;
+    font-size:55px;
+}
+
+.occupation{
+    font-family: 'Alatsi', sans-serif;
+    color:whitesmoke;
+    opacity: 1;
+    font-weight:100;
+    font-size:40px;
+
+}
+
+.list-tab{
+    display: inline;
+    padding-right: -20px;
+}
+
+.About-me{
+    margin-left: -240px;
 }
