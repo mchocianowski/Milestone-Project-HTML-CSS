@@ -11,47 +11,95 @@
     <title>Mateusz Chocianowski</title>
 </head>
 <body>
-<div class="container-fluid background-color">
-<header> 
-<div class="container">
+<header>
+    <div class="row no-gutters">
+        <div class=" col-sm-12 col-md-3">
+            <img src="assets/images/website-logo.jpg" alt="website-logo" class="img-fluid logo">
+    </div>
+        <div class="col-sm-12 col-md-6 bg-color-heading">
+            <h1 class="name-surname">Mateusz Chocianowski</h1>
+            <h2 class="occupation">Web Developer</h2>
+            </div>
+        <div class="col-sm-12 col-md-3 bg-color-image">
+            <img src="assets/images/Mateusz.jpg" alt="Mateusz Chocianowski" class="img-fluid Mateusz" />
+        </div>
+        </div>
+    </header>
+<section>
 <div class="row">
-        <a href="index.html" class="col-2 logo"></a>
-    <div class="col-6-no-gutters bg-color-heading">
-        <h1 class="Name-Surname"> Mateusz Chocianowski</h1>
-        <h2 class="occupation"> Motorsport Engineer/ Web Developer</h2>
-    </div>
-    </div>
-    <div class="col Mateusz">
-    <img src="assets/images/Mateusz.jpg" alt="Mateusz Chocianowski" width="350" height="400"></div>
-    </div>
-</header>
-<div class="row">
-    <div class="col-md-2">
-    <div id="list-group" class="list-tab" role="tablist" >
-        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="Home">Home</a>
-      <a class="list-group-item list-group-item-action" id="list-resume-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="Resume">Resume</a>
-      <a class="list-group-item list-group-item-action" id="list-oontact-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="Contact">Contact</a>
-      <a class="list-group-item list-group-item-action" id="list-cv-download-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="CV Download">CV Download</a>
-    </div>
-  </div>
-  <div class="col-md-2">
-    <div class="tab-content" id="nav-tabContent">
-      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list"></div>
-      <div class="tab-pane fade" id="list-resume" role="tabpanel" aria-labelledby="list-resume-list"></div>
-      <div class="tab-pane fade" id="list-contact" role="tabpanel" aria-labelledby="list-contact-list"></div>
-      <div class="tab-pane fade" id="list-cv-download" role="tabpanel" aria-labelledby="list-cv-download-list"></div>
-    </div>
-    </div>
-    <div class="col-md-6 About-me">
+<div class="col-sm-12">
+<nav class="navbar justify-content-center navbar-dark bg-dark">
+  <ul class="nav">
+  <li class="nav-item">
+    <a class="nav-link active" href="index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="resume.html">Resume</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="contact.html">Contact</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="cv-download.html">CV Download</a>
+  </li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="row no-gutters">
+<div class=" col-sm-12 About-me">
     <p>Throughout higher education and industry experience I have developed some key desirable skills which include:
     Ability of using 3D system software such as Solid Works and Auto-Desk.
-    Increased resilience and innovation throughout experience gain. 
-    I have strengthened my skills of wiring and soldering. 
+    Increased resilience and innovation throughout experience gain.
+    I have strengthened my skills of wiring and soldering.
     Spotting surface corrosion, drilling, filing and riveting.
-    Ability of recognising the limitations of human factors in the industry. 
-</p>
+    Ability of recognising the limitations of human factors in the industry. rgb(160,160,160) #373636</p>
     </div>
     </div>
-    </div>
+</section>
+<footer class="container-fluid">
+        <div id="footer-details" class="row">
+            <div class="col-sm-12">
+                <h5 class="uppercase general-sub">Place of residence.</h5>
+                <p class="inline-block">
+                    10 Westmacott Drive
+                    Feltham
+                    London
+                    TW14 9RN
+                </p>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-sm-12">
+                <h5 class="uppercase general-sub">Social</h5>
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fa fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
