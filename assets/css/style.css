@@ -1,58 +1,228 @@
-@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap:100,200,300,400,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
 
-.background-color{
-    background-color:rgb(160,160,160);
-    background-repeat: repeat-y;
+body {
+    background-color: #ABABAB;
 }
 .bg-color-heading{
-    background-color: black;
-    opacity: 0.6;
-    min-height:300px;
-    margin-left:0px;
-    width:50%;
-}
-.Mateusz{
-   position: absolute;
-   right: 40%;
-}
+    background-color:#ABABAB;
+    width: 100%;
+    min-height: 100%;
+    }
 .header{
     margin:0;
 }
-
 .logo{
-    background:url("../images/website-logo.jpg");
-    background-repeat: no-repeat;
-    background-size:contain;
-    min-width: 300px;
-    min-height:300px;
-    margin-left:-6%;
-    margin-right:0px;
+    width:100%;
+    height: 100%;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
 }
-.Name-Surname{
-    font-family: 'Alatsi', sans-serif;
-    color:white;
-    opacity: 1;
-    font-weight:100;
+.name-surname{
+    font-family: 'Playfair Display', serif;
+    color:black;
+    padding-top: 20%;
+    font-weight:500;
+    font-size:80px;
+    overflow: hidden;
+}
+.occupation{
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-weight:500;
     font-size:55px;
 }
-
-.occupation{
-    font-family: 'Alatsi', sans-serif;
-    color:whitesmoke;
-    opacity: 1;
-    font-weight:100;
-    font-size:40px;
-
+.bg-color-image{
+    background-color: #ABABAB;
 }
-
-.list-tab{
-    display: inline;
-    padding-right: -20px;
+.Mateusz{
+    padding-top: 10%;
+    border-radius: 50%;
+    width: 95%;
+    height: 90%;
+    overflow: hidden;
 }
 
 .About-me{
-    margin-left: -240px;
+    color: black;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    overflow: hidden;
+    contain: content;
+}
+footer {
+    background-color:#2c3035;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    height: 100%;
+    margin: 0;
+}
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.cv-pdf i:hover {
+    color: blue;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #007600; 
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+.paragraph{font-family: 'Playfair Display', serif;}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    font-family: 'Playfair Display', serif;
+padding-left: 0px;
+  min-width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    font-family: 'Playfair Display', serif;
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {font-family: width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+
+.nav-item{
+    font-family: 'Playfair Display', serif;
+    font-size:20px;
+    font-weight:500;
+    color: #ffffff;
+}
+.nav-link{
+    color:#ffffff;
+}
+.nav-link:hover{
+    color:#007600;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #007600;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #ABABAB;
+  padding: 20px;
+}
+/*card*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+@media screen and (min-width:300px){
+    .name-surname{
+    font-family: 'Playfair Display', serif;
+    color:black;
+    opacity: 1;
+    font-weight:500;
+    font-size:50px;
+    overflow: hidden;
+    }
+    .occupation{
+        font-family: 'Playfair Display', serif;
+        color:black;
+        opacity: 1;
+        font-weight:500;
+        font-size:40px;
+    }
 }
