@@ -52,12 +52,15 @@
             <!--Form code was outsourced from https://www.w3schools.com/howto/howto_css_contact_form.asp and edited for developers purpose.-->
                 <div class="col-sm-12">
                     <div class="container form-container">
-                        <form>
+                        <form onsubmit="function()">
                             <label for="fname">First Name</label>
                             <input type="text" id="fname" name="firstname" placeholder="Your name.." required/>
 
                             <label for="lname">Last Name</label>
                             <input type="text" id="lname" name="lastname" placeholder="Your last name.." required/>
+
+                            <label for="email">E-mail Address</label>
+                            <input type="email" id="e-mail" name="e-mail" placeholder="example@example.com" required/>
 
                             <label for="country">Country</label>
                             <select id="country" name="country" required>
@@ -310,9 +313,13 @@
 
                             <label for="subject">Subject</label>
                             <textarea id="subject" name="subject" placeholder="Write something.." style="height: 200px;" required></textarea >
-
-                            <input type="submit" value="Submit" />
+                            <input type="submit" value="Submit" id="submit">
                         </form>
+                        <script>
+   window.onsubmit = function() {
+      alert("Thank you for submitting your form. I will be in touch shortly."); 
+   }
+   </script>
                     </div>
                 </div>
             </div>
@@ -331,27 +338,21 @@
                     <h5 class="uppercase general-sub">Social</h5>
                     <ul class="list-inline social-links">
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.facebook.com/mateusz.chocianowski/">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.linkedin.com/in/mateusz-chocianowski-b68b6a1b1">
                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                                 <span class="sr-only">LinkedIn</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.instagram.com/Matt.pl_97">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                                 <span class="sr-only">Instagram</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a target="_blank" href="#">
-                                <i class="fa fa-youtube" aria-hidden="true"></i>
-                                <span class="sr-only">YouTube</span>
                             </a>
                         </li>
                     </ul>
