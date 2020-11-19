@@ -53,7 +53,7 @@ footer {
     font-family: "Playfair Display", serif; /* Font style and back up font.*/
     color: #ffffff; /* Font color.*/
     height: 100%; /* Footer height.*/
-    margin: 0; /* No margin.*/
+    text-align: center; /* Text-allignment.*/
 }
 /* Social links styling */
 .social-links {
@@ -140,6 +140,7 @@ footer {
 
 /* Style inputs with type="text", select elements and textareas */
 input[type="text"],
+input[type="email"],
 select,
 textarea {
     width: 100%; /* Full width */
@@ -186,7 +187,7 @@ input[type="submit"]:hover {
     font-size: 18px; /*Title font size.*/
 }
 
-button {
+.download-link {
     border: none; /* No border for the button.*/
     outline: 0; /*No outline slected.*/
     display: inline-block; /*Display in-line-block */
@@ -199,9 +200,11 @@ button {
     font-size: 18px; /*Font size.*/
 }
 
-button:hover,
+.download-link:hover,
 a:hover {
-    opacity: 0.7; /*Cahne the background oppacity of button when hovered over.*/
+    opacity: 0.7; /*Change the background oppacity of button when hovered over.*/
+    color: #45a049; /*Change text color to green when hovered over*/
+    text-decoration: none;
 }
 /* Adding media queries */
 @media screen and (min-width: 300px) /*For screens at 300px*/ {
