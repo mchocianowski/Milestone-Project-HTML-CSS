@@ -177,17 +177,40 @@ match for the users.
 * GitHub
     * GithHub is the hosting site used to store the source code for the Website.
 * Git
-    * Git is the version control software used to commit and push code to the GitHub repository where the source code is stored.
+    * Git is the version control software used to commit and push code to the GitHub repository 
+    where the source code is stored.
 * Balsamiq Wireframes
     * Used to create wireframes for User experience design.
 * Favicon
     * Favicon.io was used to make the website favicon.
 
+## *Testing*
+Testing is a vital part of programming, it ensures
+the code which has been written actually works and is not filled with bugs, if it is... It needs to be debugged.
+My final test reults can be seen underneath.
+![Test-results](assets/images/testing-results.jpg)
+However the above tests are the final tests and most passed due to debugging being carried out 
+throughout the project. Some of the faults I had are as follows:
+* Initially, my biggest problem was allignment, as mentioned in the skeleton section under differences in design; 
+    I found it difficult to understand how bootstrap grid really worked. therefore a really large image was offsetting
+    all rows to the bottom of the page. To overcome this, once I finally understood how bootstrap grid worked, I reduced the image size
+    and contained the image within its container. this allowed me to progress further with the development.
+* My second issue, was making the website look good on all devices, one of this projects key criteria... 
+despite using bootstrap grid and allowing column sizes on sm and md devices my site was not looking any better on mobile devices.
+The way in which I over csame thi, to an extent was by adding media queries to the css style sheet. I express this as to an extent 
+as I am aware there are a few minor bugs left such as how the site looks in 4k; although as my mentor said 
+no one really views just one window on a 4k screen so the likelihood of it seeming too small on that screen is fairly unlikely unless
+someone was to open the site on it's own. Further to this I would have liked the logo,header and image to be all in one row on a mobile dice too. 
+However, due to being in a car accident and having my last week off where these small adjustments were due to be made I have to take it as a learning curve, 
+admit to the not so sleek layout and debug this in future developement.
+
 ## *Deployment*
+
 ### *Project creation:*
 I started the project by retrieving the template supplied by code institute and clicking 'Use this template'. 
 I named the repository: Milestone-Project-HTML-CSS and selected the 'Include all branches' checkbox. 
-Once the above steps were complete I opened the newly created repository and clicked the green gitpod button which took me to gitpod where I began the coding.
+Once the above steps were complete I opened the newly created repository and clicked the green gitpod 
+button which took me to gitpod where I began the coding.
 
 I used the following commands throughout the project:
 git commit: commit message explaining the updates, this command was used to to commit changes to the local repo.
@@ -243,4 +266,19 @@ git push: The command is used to push all commited changes from the local repo t
 
 * Create a [Favicom](https://favicon.io/favicon-converter/)
 
-[5 User planes](https://ozchen.com/5-planes-content-strategy/)
+* [5 User planes](https://ozchen.com/5-planes-content-strategy/)
+
+* [Skill bar](https://www.w3schools.com/howto/howto_css_skill_bar.asp)
+
+## *Comments*
+As final comments I'd like to mention that I feel as though my commits as well 
+as the recording of debugging has been limited to a standard lower than I'd like. 
+My commits could and should have been better the tense should have been kept present, and for the purposes of this readme file
+keeping on top of all bugs I found throughout ould have been beneficial. It was initially a challenge and unfortunatly 
+I got lost into trying to find the soloution and never actually recorded all my problems. This also goes for commits where
+I changed my code so much at times that I did not commit when I should have done. I have tried to become better at this towards
+the end of the project, unfortunatly with programming it's not as simple as erasing the wrong answer and correcting it with the proper answer.
+But I have learnt a lot from this first project and hope it will enable me to be a better, neater programmer in the future.
+I'd also like to clarify where I have refered to the creator of the website, I am refering to my self Mateusz Chocianowski.
+I have tried to keep the sections of user experience in a neutral thrid person tone to clarify the difference between
+the users and the developer/creator.
