@@ -2,16 +2,18 @@
 
 /* Website Colours */
 body {
-    background-color: #ababab;/* Background color for html page */
+    background-color: #ababab; /* Background color for html page */
+    height: 100%;
 }
 
 /* Image styling */
 .logo {
     width: 100%; /* Full width */
-
 }
 .Mateusz {
     padding-top: 10%; /* Some padding on the top */
+    padding-bottom: 10%;
+    margin-right: 5%;
     border-radius: 50%; /* Curved border */
     width: 95%; /* 95% wide */
     overflow: hidden; /* stops image from outgrowing the container it's in. */
@@ -20,7 +22,7 @@ body {
 .name-surname {
     font-family: "Playfair Display", serif; /* Font style and back up font.*/
     color: black; /* Font color */
-    padding-top: 20%; /* Some top padding */
+    padding-top: 30px; /* Some top padding */
     font-weight: 500; /* Boldness of the font */
     font-size: 80px; /* Font size */
     overflow: hidden; /* stops content from outgrowing the container it's in. */
@@ -40,11 +42,10 @@ body {
     font-family: "Playfair Display", serif; /* Font style and back up font.*/
     text-align: center; /* Text-allignment.*/
     overflow: hidden; /* stops content from outgrowing the container it's in. */
-    
 }
-.skills-paragraph{
+.skills-paragraph {
     font-family: "Playfair Display", serif; /* Font style and back up font.*/
-    padding-top: 5px;/*Some top padding*/
+    padding-top: 5px; /*Some top padding*/
     margin-bottom: 0px; /*removed the bottom margin*/
 }
 /* Footer styling */
@@ -78,7 +79,7 @@ footer {
 }
 /*First row of rooter has a padding of 20px.*/
 #footer-details {
-    padding: 20px;/*Some padding*/
+    padding: 20px; /*Some padding*/
 }
 /* Skill bar styling */
 /* Make sure that padding behaves as expected */
@@ -86,13 +87,13 @@ footer {
     box-sizing: border-box;
 }
 /*container for Resume page skills styling*/
-.full-skills-container{
-    padding:12px;
-    margin-left:auto;
-    margin-right:auto;
+.full-skills-container {
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
 }
-.skills-container{
-    font-family: "Playfair Display", serif;/*Font style and back up font.*/
+.skills-container {
+    font-family: "Playfair Display", serif; /*Font style and back up font.*/
     padding-left: 12px; /*Added some left padding.*/
     padding: 0px; /*Removed padding everywhere but the left side*/
     min-width: 100%; /*Full width.*/
@@ -102,32 +103,32 @@ footer {
 .skills {
     font-family: "Playfair Display", serif; /*Font style and back up font.*/
     text-align: right; /*Text-alligned to the right.*/
-    white-space:nowrap;/*stopping text from going onto seperate lines.*/
-    padding-bottom: 10px;/*Added some bottom padding.*/
+    white-space: nowrap; /*stopping text from going onto seperate lines.*/
+    padding-bottom: 10px; /*Added some bottom padding.*/
     color: black; /*White text color*/
 }
 /*Styling progress bars*/
 .html {
-    width: 100%;/*Percentage achieved.*/
-    background-color: #007600;/*Color - green*/
+    width: 100%; /*Percentage achieved.*/
+    background-color: #007600; /*Color - green*/
 }
 .css {
-    width: 100%;/*Percentage achieved.*/
-    background-color: #007600;/*Color - green*/
+    width: 100%; /*Percentage achieved.*/
+    background-color: #007600; /*Color - green*/
 }
 .js {
-    width: 1%;/*Percentage achieved.*/
-    background-color: #007600;/*Color - green*/
+    width: 1%; /*Percentage achieved.*/
+    background-color: #007600; /*Color - green*/
 }
 .php {
-    width: 1%;/*Percentage achieved.*/
-    background-color: #007600;/*Color - green*/
+    width: 1%; /*Percentage achieved.*/
+    background-color: #007600; /*Color - green*/
 }
 
 /* Styling the Nav-bar */
 .nav-item {
     font-family: "Playfair Display", serif; /*Font style and back up font.*/
-    font-size: 20px;/*Font size.*/
+    font-size: 20px; /*Font size.*/
     font-weight: 500; /*Font boldness.*/
     color: #ffffff; /*Font color.*/
 }
@@ -156,7 +157,7 @@ textarea {
 /* Style the submit button with a specific background color etc */
 input[type="submit"] {
     background-color: #007600; /* Green background color. */
-    color: white;/* white text color */
+    color: white; /* white text color */
     padding: 12px 20px; /* Some padding */
     border: none; /* No border around green background color */
     border-radius: 4px; /* Rounded edges */
@@ -193,7 +194,7 @@ input[type="submit"]:hover {
     display: inline-block; /*Display in-line-block */
     padding: 8px; /* Some padding*/
     color: white; /*White text*/
-    background-color: #000;/*Black background.*/
+    background-color: #000; /*Black background.*/
     text-align: center; /*Text-alligned to the center.*/
     cursor: pointer; /*Cursor type.*/
     width: 100%; /*Full width.*/
@@ -207,7 +208,7 @@ a:hover {
     text-decoration: none;
 }
 /* Adding media queries */
-@media screen and (min-width: 300px) /*For screens at 300px*/ {
+@media screen and (min-width: 320px) and (max-width: 425px), /*For screens at 300px*/ {
     .name-surname {
         font-family: "Playfair Display", serif;
         color: black;
@@ -222,5 +223,20 @@ a:hover {
         opacity: 1;
         font-weight: 500;
         font-size: 40px;
+    }
+    .nav-item {
+        font-family: "Playfair Display", serif; /*Font style and back up font.*/
+        font-size: 7px; /*Font size.*/
+        font-weight: 500; /*Font boldness.*/
+        color: #ffffff; /*Font color.*/
+    }
+    .Mateusz {
+        padding-top: 10%; /* Some padding on the top */
+        padding-bottom: 10%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        border-radius: 50%; /* Curved border */
+        width: 95%; /* 95% wide */
+        overflow: hidden; /* stops image from outgrowing the container it's in. */
     }
 }
