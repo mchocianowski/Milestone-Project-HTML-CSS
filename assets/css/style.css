@@ -4,6 +4,8 @@
 body {
     background-color: #ababab; /* Background color for html page */
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Image styling */
@@ -96,7 +98,8 @@ footer {
     font-family: "Playfair Display", serif; /*Font style and back up font.*/
     padding-left: 12px; /*Added some left padding.*/
     padding: 0px; /*Removed padding everywhere but the left side*/
-    min-width: 100%; /*Full width.*/
+    max-width: 80%; /*Full width.*/
+    margin:0px;
     background-color: #ddd; /*WHite background for the skill bar*/
 }
 /*Stying of the percentage values in the skill bars.*/
@@ -209,6 +212,64 @@ a:hover {
 }
 /* Adding media queries */
 @media screen and (min-width: 320px) and (max-width: 425px) /*For screens at 300px*/ {
+    body {
+    background-color: #ababab; /* Background color for html page */
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+    .name-surname {
+        font-family: "Playfair Display", serif;
+        color: black;
+        opacity: 1;
+        font-weight: 500;
+        font-size: 50px;
+        overflow: hidden;
+    }
+    .occupation {
+        font-family: "Playfair Display", serif;
+        color: black;
+        opacity: 1;
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .nav-item{
+        font-family: "Playfair Display", serif; /*Font style and back up font.*/
+        font-size: 20px; /*Font size.*/
+        font-weight: 500; /*Font boldness.*/
+        color: #ffffff; /*Font color.*/
+    }
+    .Mateusz {
+        padding-top: 10%; /* Some padding on the top */
+        padding-bottom: 10%;
+        margin-right: 2.5%;
+        margin-left: 2.5%;
+        border-radius: 50%; /* Curved border */
+        width: 95%; /* 95% wide */
+        overflow: hidden; /* stops image from outgrowing the container it's in. */
+    }
+    .skills-container {
+    font-family: "Playfair Display", serif; /*Font style and back up font.*/
+    padding-left: 12px; /*Added some left padding.*/
+    padding: 0px; /*Removed padding everywhere but the left side*/
+    max-width: 80%; /*Full width.*/
+    margin:30px;
+    background-color: #ddd; /*WHite background for the skill bar*/
+    }
+    .skills-paragraph {
+    font-family: "Playfair Display", serif; /* Font style and back up font.*/
+    padding-top: 5px; /*Some top padding*/
+    margin-bottom: 0px; /*removed the bottom margin*/
+    margin-left: 30px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 768px) /*For screens at 768px*/ {
+    body {
+    background-color: #ababab; /* Background color for html page */
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
     .name-surname {
         font-family: "Playfair Display", serif;
         color: black;
@@ -226,7 +287,7 @@ a:hover {
     }
     .nav-item {
         font-family: "Playfair Display", serif; /*Font style and back up font.*/
-        font-size: 7px; /*Font size.*/
+        font-size: 20px; /*Font size.*/
         font-weight: 500; /*Font boldness.*/
         color: #ffffff; /*Font color.*/
     }
@@ -239,4 +300,4 @@ a:hover {
         width: 95%; /* 95% wide */
         overflow: hidden; /* stops image from outgrowing the container it's in. */
     }
-}
+    }
