@@ -18,6 +18,29 @@ despite some limitations due to the lack of knowledge of other, more advanced pr
 
 # **_User Experience Design:_**
 
+## *User Stories:*
+* As an employer, I want to be able to sense the type of person being presented on the site is; 
+an introduction or a small background would make me want to stay and see more!
+* As an employer, I am also interested in seeing what skills the person presented on this site has to offer, 
+if the skills are easy to ditinguish and appeal to my needs, I will be inclined to give the persons resume a further look.
+* As an employer, I want to be able to open a full CV in pdf format and if should I wish to I'd like to 
+download the CV for future use. 
+* As an employer, I would like to be able to contact the person presented on the site in order to arrange 
+an interview in person or online.
+* As a client looking for someone to design a website for me, I want to see if this person has the 
+skills I require from them. If the availabily is there and the skills are inline with my needs; I'd like to get in 
+touch with the person to discuss my project and recieve a quotation.
+
+## *User Story Testing:*
+* Index.html is the first page, in browser view it is recognised as the home page. On this page there is an about-me 
+section which gives a short introduction to me, who I am, what I do and and why I am doing it.
+* Resume.html has a skills section, it is used throughtout my learning to update the skills I gain and will inform potential 
+clients and/or employers about my abilities without having to read through a lengthy CV.
+* Having an available contact form allows any site visitor to submit the form with their contact details which would allow 
+me to get back in touch with them in regards to their queries.
+* Anyone interested in viewing or downloading a version of the full CV can do so from the CV Download page, the document is 
+in pdf format and can be opened in a new browser window.
+As a < type of user >, I want < some goal > so that < some reason >.
 ## *The Surface Plane:*
 
 ### *The font:*
