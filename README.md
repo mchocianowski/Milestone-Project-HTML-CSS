@@ -40,7 +40,7 @@ clients and/or employers about my abilities without having to read through a len
 me to get back in touch with them in regards to their queries.
 * Anyone interested in viewing or downloading a version of the full CV can do so from the CV Download page, the document is 
 in pdf format and can be opened in a new browser window.
-As a < type of user >, I want < some goal > so that < some reason >.
+
 ## *The Surface Plane:*
 
 ### *The font:*
@@ -292,6 +292,8 @@ git push: The command is used to push all commited changes from the local repo t
 * [5 User planes](https://ozchen.com/5-planes-content-strategy/)
 
 * [Skill bar](https://www.w3schools.com/howto/howto_css_skill_bar.asp)
+
+* [User story writting](https://www.mountaingoatsoftware.com/agile/user-stories)
 
 ## *Comments*
 As final comments I'd like to mention that I feel as though my commits as well 
