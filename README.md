@@ -293,7 +293,7 @@ git push: The command is used to push all commited changes from the local repo t
 
 * [Skill bar](https://www.w3schools.com/howto/howto_css_skill_bar.asp)
 
-* [User story writting](https://www.mountaingoatsoftware.com/agile/user-stories)
+* [User story writing](https://www.mountaingoatsoftware.com/agile/user-stories)
 
 ## *Comments*
 As final comments I'd like to mention that I feel as though my commits as well 
