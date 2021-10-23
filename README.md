@@ -8,7 +8,8 @@ HTML and CSS. For this project I will be designing my virtual resume, this is be
 I feel my other ideas will be better suited for future projects when working with more advanced languages. 
 I feel that my resume will be a good foundation for my portfolio and will allow me to demonstrate a variety 
 of features allowed by HTML and CSS along with the use of bootstrap.
-![Multi Device Mock-up Image] (assets/images/multi-device-mockup.jpg)
+Click here to find my project: https://mchocianowski.github.io/Milestone-Project-HTML-CSS/index.html
+![Multi Device Mock-up Image](assets/images/multi-device-mockup.jpg)
 
 # **_Purpose:_**
 The website above was created solely for the purpose of achieving the first Milestone Project for the Code 
